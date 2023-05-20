@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/eoniasia/ecommerce/git
+- /bin/cp -r * $DEPLOYPATH
